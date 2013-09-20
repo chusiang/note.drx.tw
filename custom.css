@@ -179,14 +179,18 @@ blockquote {
 }
 
 blockquote li {
-
 	margin-left: 19px;
 	padding: 0px 0px 0px 0px;
-	list-style-stype: none;
 	/*
 	list-style: url('https://sites.google.com/site/jonnywiki/software/fonts/dollar_sign.png');
 	*/
 	list-style: url('img/dollar_sign.png');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	blockquote li {
+		margin-left: 0px;
+	}
 }
 
 /* == CODE == */
