@@ -163,7 +163,10 @@ h3.post-title.entry-title {
 /* == BlockQuote == */
 blockquote {
 	display: block;
-	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	/*
+	background: #1c1c1c url('http://devajonny.googlepages.com/Code_BG.png') left top repeat-y;
+	*/
+	background: #1c1c1c url('img/Code_BG.png') left top repeat-y;
 	border: 1px solid #999999;
 	color:#dddddd;
 	font-size: 13px;
@@ -180,13 +183,19 @@ blockquote li {
 	margin-left: 19px;
 	padding: 0px 0px 0px 0px;
 	list-style-stype: none;
+	/*
 	list-style: url('https://sites.google.com/site/jonnywiki/software/fonts/dollar_sign.png');
+	*/
+	list-style: url('img/dollar_sign.png');
 }
 
 /* == CODE == */
 code {
 	display: block;
-	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	/*
+	background: #1c1c1c url('http://devajonny.googlepages.com/Code_BG.png') left top repeat-y;
+	*/
+	background: #1c1c1c url('img/Code_BG.png') left top repeat-y;
 	border: 1px solid #999999;
 	color: #dddddd;
 	font-size: 13px;
@@ -201,7 +210,10 @@ code {
 
 code.src {
 	display: block;
-	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	/*
+	background: #1c1c1c url('http://devajonny.googlepages.com/Code_BG.png') left top repeat-y;
+	*/
+	background: #1c1c1c url('img/Code_BG.png') left top repeat-y;
 	border: 1px solid #999999;
 	color: #dddddd;
 	font-size: 13px;
@@ -217,8 +229,11 @@ code.src {
 
 code.ref {
 	display: block;
+	/*
+	background: #1c1c1c url('http://devajonny.googlepages.com/Code_REF.png') left top repeat-y;
+	background: #1c1c1c url('img/Code_REF.png') left top repeat-y;
+	*/
 	background: #3D3434; 
-	/* background: #1c1c1c url(http://devajonny.googlepages.com/Code_REF.png) left top repeat-y;  */
 	border: 3px dashed #ff0000;
 	color: #9C9CE0;
 	overflow: auto;
@@ -239,8 +254,15 @@ pre {
 
 /* == Share Button == */
 .btnPlurk {
-	/* background:url(https://lh4.googleusercontent.com/-vUhp29mMCeQ/T7qNwq4zZ5I/AAAAAAAAJ6A/pcRYFKR8ABk/s800/sb-plurk.png) no-repeat left top !important; */
-	background:url(http://1.bp.blogspot.com/-bwEKYLM4UGI/UMfIEP6jXEI/AAAAAAAAFPo/brFne107ors/s1600/sb-plurk-bw.png) no-repeat left top !important;
+	/*
+	background:url('https://lh4.googleusercontent.com/-vUhp29mMCeQ/T7qNwq4zZ5I/AAAAAAAAJ6A/pcRYFKR8ABk/s800/sb-plurk.png') no-repeat left top !important;
+	background:url('img/sb-plurk.png') no-repeat left top !important; 
+	*/
+	 
+	/*
+	background:url('http://1.bp.blogspot.com/-bwEKYLM4UGI/UMfIEP6jXEI/AAAAAAAAFPo/brFne107ors/s1600/sb-plurk-bw.png') no-repeat left top !important;
+	*/
+	background:url('img/sb-plurk-bw.png') no-repeat left top !important;
 	text-decoration: none;
 	width:20px;
 	height:20px;
@@ -248,13 +270,17 @@ pre {
 }
 
 a:hover.btnPlurk {
-	background:url(https://lh6.googleusercontent.com/-mr20nfcSkiI/T7qNwiRt8wI/AAAAAAAAJ6E/ZsSVRfakkIA/s800/sb-plurk-hover.png) no-repeat left top !important;
+	/*
+	background:url('https://lh6.googleusercontent.com/-mr20nfcSkiI/T7qNwiRt8wI/AAAAAAAAJ6E/ZsSVRfakkIA/s800/sb-plurk-hover.png') no-repeat left top !important;
+	*/
+	background:url('img/sb-plurk-hover.png') no-repeat left top !important;
 	text-decoration: none;
 	//border:#fd3 solid;
 	//border-width: 2px 0;
 	//margin: -4px 0 2px 0;
 }
 
+/*
 .btnLINE {
 	background:url(https://lh4.googleusercontent.com/-hepk0gyW9j0/UQSgJRfuVpI/AAAAAAAAR8g/mScmf77kEMM/s800/sb-line.png) no-repeat left top !important;
 	text-decoration: none;
@@ -266,6 +292,7 @@ a:hover.btnLINE {
 	background:url(https://lh6.googleusercontent.com/-BO-xSqxBTdE/UQSgHETxxKI/AAAAAAAAR8Y/7bnt0SH9xqU/s800/sb-line-hover.png) no-repeat left top !important;
 	text-decoration: none;
 }
+*/
 
 /* == Scroll to Top == */
 #back-top {
@@ -298,7 +325,10 @@ a:hover.btnLINE {
 	height: 108px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url("https://lh4.googleusercontent.com/-S4B3UU3ZwRU/UOzH6E53_OI/AAAAAAAARsQ/5VzKqJJyLNk/s800/up-arrow.png") no-repeat center center;
+	/*
+	background: #ddd url('https://lh4.googleusercontent.com/-S4B3UU3ZwRU/UOzH6E53_OI/AAAAAAAARsQ/5VzKqJJyLNk/s800/up-arrow.png') no-repeat center center;
+	*/
+	background: #ddd url('img/up-arrow.png') no-repeat center center;
 
 	/* rounded corners */
 	-webkit-border-radius: 15px;
