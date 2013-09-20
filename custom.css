@@ -1,0 +1,315 @@
+/* = custom CSS = */
+
+/* == Header Date == */
+.date-header {
+	text-align: right;
+}
+
+/* == Post == */
+/*
+h3.post-title.entry-title {
+	text-shadow: 0px 0px 1px #dddddd;
+}
+*/
+.post h3, h3.mobile-index-title.entry-title {
+	font: normal bold 22px Verdana, Geneva, sans-serif;
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 5px 0px;
+	color: #cc0000;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1.6em;
+}
+
+.post h4 {
+	font: normal 20px Verdana, Geneva, sans-serif;
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 5px 0px;
+	color: #ffdb00;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.post h5 {
+	font: normal 18px Verdana, Geneva, sans-serif;
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 5px 0px;
+	color: #9c9ce0;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1.4em;
+}
+
+.post h6 {
+	font: normal 16px Verdana, Geneva, sans-serif;
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 5px 0px;
+	color: #91b9e0;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.post b {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.post table.dark {
+	border-collapse: collapse;
+}
+
+.post table.dark th {
+	border: 1px;
+	border-style: solid;
+	background-color:	#1E1E1E;
+	color: #dddddd;
+	text-align: center;
+	vertical-align: middle;
+	padding: 3px 5px 3px 5px;
+}
+
+.post table.dark td {
+	border: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	padding: 3px 5px 3px 5px;
+}
+
+.post table.menu {
+	background-color:	#1E1E1E;
+	border: 1px solid #020202;
+	border-collapse: collapse;
+	float: right;
+}
+
+.post table.menu th {
+	border: 1px solid #020202;
+	color: #cc0000;
+	text-align: center;
+	vertical-align: middle;
+	padding: 3px 5px 3px 5px;
+}
+
+.post table.menu td {
+	vertical-align: middle;
+	padding: 3px 5px 3px 5px;
+}
+
+.post hr {
+	border: none;
+	border-top: 2px dashed #7f7f7f;
+	height: 2px;
+	width: 95%;
+}
+
+/* == Vim to HTML with fu.vim == */
+.Boolean { color: #afd700; }
+.Comment { color: #808080; }
+.Conditional { color: #8787ff; }
+.Constant { color: #ffd700; font-weight: bold; }
+.Error { color: #ff0000; background-color: #5f0000; }
+.Function { color: #ffffff; }
+.Identifier { color: #afd75f; }
+.Keyword { color: #d7ff00; }
+.lnr { color: #a8a8a8; background-color: #080808; }
+.Number { color: #ffaf00; }
+.Operator { color: #767676; }
+.PreProc { color: #ffffaf; }
+.Special { color: #ffd700; }
+.SpecialKey { color: #5fd75f; }
+.Statement { color: #8787af; font-weight: bold; }
+.String { color: #87af5f; background-color: #121212; }
+.Type { color: #87afff; }
+.Underlined { color: #5fd7ff; text-decoration: underline; }
+
+/* == Keyboard Style == */
+/*
+.Ctrl {
+	background-color: white;
+	border-radius: 5pt 5pt 5pt 5pt;
+	border: 3pt outset rgb(136, 136, 136);
+	color: #444444;
+	font-family: sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+	padding: 0px 2px 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+*/
+
+.Ctrl, kbd
+{
+    -moz-border-radius:3px;
+    -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    -webkit-border-radius:3px;
+    -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    background-color:#f7f7f7;
+    border:1px solid #ccc;
+    border-radius:3px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    color:#333;
+    display:inline-block;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:11px;
+    line-height:1.4;
+    margin:0 .1em;
+    padding:.1em .6em;
+    text-shadow:0 1px 0 #fff;
+}
+
+/* == BlockQuote == */
+blockquote {
+	display: block;
+	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	border: 1px solid #999999;
+	color:#dddddd;
+	font-size: 13px;
+	overflow: auto;
+	padding: 5px 5px 5px 15px;
+	margin: 10px 0px 0px 5px;
+	max-height: 1200px;
+	line-height: 1.6em;
+	letter-spacing: 0px; 
+}
+
+blockquote li {
+
+	margin-left: 19px;
+	padding: 0px 0px 0px 0px;
+	list-style-stype: none;
+	list-style: url('https://sites.google.com/site/jonnywiki/software/fonts/dollar_sign.png');
+}
+
+/* == CODE == */
+code {
+	display: block;
+	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	border: 1px solid #999999;
+	color: #dddddd;
+	font-size: 13px;
+	overflow: auto;
+	//width: 440px;
+	padding: 5px 5px 5px 15px;
+	margin: 10px 0px 0px 5px;
+	max-height: 1200px;
+	line-height: 1.6em;
+	letter-spacing: 0px; 
+} 
+
+code.src {
+	display: block;
+	background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+	border: 1px solid #999999;
+	color: #dddddd;
+	font-size: 13px;
+	float: left
+	overflow: auto;
+	height: 500px; 
+	padding: 5px 5px 5px 15px;
+	margin: 10px 0px 0px 5px;
+	max-height: 1500px;
+	line-height: 1.6em;
+	letter-spacing: 0px; 
+}
+
+code.ref {
+	display: block;
+	background: #3D3434; 
+	/* background: #1c1c1c url(http://devajonny.googlepages.com/Code_REF.png) left top repeat-y;  */
+	border: 3px dashed #ff0000;
+	color: #9C9CE0;
+	overflow: auto;
+	font-size: 13px;
+	padding: 10px 10px 10px 10px;
+	max-height: 1200px;
+	margin: 0px 0 0 0px;
+	line-height: 1.6em;
+	letter-spacing: 0px; 
+}
+
+pre {
+	float: left;
+	font-size: 13px;
+	max-width: 2000px;
+	margin-right: -240px
+}
+
+/* == Share Button == */
+.btnPlurk {
+	/* background:url(https://lh4.googleusercontent.com/-vUhp29mMCeQ/T7qNwq4zZ5I/AAAAAAAAJ6A/pcRYFKR8ABk/s800/sb-plurk.png) no-repeat left top !important; */
+	background:url(http://1.bp.blogspot.com/-bwEKYLM4UGI/UMfIEP6jXEI/AAAAAAAAFPo/brFne107ors/s1600/sb-plurk-bw.png) no-repeat left top !important;
+	text-decoration: none;
+	width:20px;
+	height:20px;
+	//margin: -4px 0 2px 0;
+}
+
+a:hover.btnPlurk {
+	background:url(https://lh6.googleusercontent.com/-mr20nfcSkiI/T7qNwiRt8wI/AAAAAAAAJ6E/ZsSVRfakkIA/s800/sb-plurk-hover.png) no-repeat left top !important;
+	text-decoration: none;
+	//border:#fd3 solid;
+	//border-width: 2px 0;
+	//margin: -4px 0 2px 0;
+}
+
+.btnLINE {
+	background:url(https://lh4.googleusercontent.com/-hepk0gyW9j0/UQSgJRfuVpI/AAAAAAAAR8g/mScmf77kEMM/s800/sb-line.png) no-repeat left top !important;
+	text-decoration: none;
+	width:20px;
+	height:20px;
+}
+
+a:hover.btnLINE {
+	background:url(https://lh6.googleusercontent.com/-BO-xSqxBTdE/UQSgHETxxKI/AAAAAAAAR8Y/7bnt0SH9xqU/s800/sb-line-hover.png) no-repeat left top !important;
+	text-decoration: none;
+}
+
+/* == Scroll to Top == */
+#back-top {
+	float: right;
+	position: fixed;
+	bottom: 10px;
+	margin-left: 75%;
+}
+
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url("https://lh4.googleusercontent.com/-S4B3UU3ZwRU/UOzH6E53_OI/AAAAAAAARsQ/5VzKqJJyLNk/s800/up-arrow.png") no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
