@@ -12,9 +12,11 @@
       <meta content='width=1100' name='viewport'/>
     </b:if>
     <b:include data='blog' name='all-head-content'/>
-    <title>
-      <data:blog.pageTitle/>
-    </title>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+      <title><data:blog.pageName/> | <data:blog.title/></title>
+    <b:else/>
+      <title><data:blog.pageTitle/></title>
+    </b:if>
     <meta expr:content='data:blog.metaDescription' name='description'/>
     <b:skin><![CDATA[
       
