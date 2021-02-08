@@ -31,7 +31,7 @@
 <Group description="Page Text">
   <Variable name="body.text.font" description="Font"
       type="font"
-      default="$(robotoNormal15)"  value="15px Roboto, sans-serif"/>
+      default="$(robotoNormal15)"  value="normal normal 18px Roboto, sans-serif"/>
   <Variable name="body.text.color" description="Color"
       type="color"
       default="#757575"  value="#dddddd"/>
@@ -75,7 +75,7 @@
 <Group description="Blog title" selector="div.widget.Header">
   <Variable name="blog.title.font" description="Font"
       type="font"
-      default="$(robotoBold45)"  value="bold 45px Roboto, sans-serif"/>
+      default="$(robotoBold45)"  value="normal bold 45px Roboto, sans-serif"/>
   <Variable name="blog.title.color" description="Color"
       type="color"
       default="#fff"  value="transparent"/>
@@ -114,13 +114,13 @@
       default="#212121"  value="#ff0000"/>
   <Variable name="posts.title.font" description="Post title font"
       type="font"
-      default="$(robotoBold22)"  value="bold 22px Roboto, sans-serif"/>
+      default="$(robotoBold22)"  value="normal bold 24px Roboto, sans-serif"/>
   <Variable name="posts.stream.title.font" description="Post title stream font"
       type="font"
-      default="$(robotoBold30)"  value="bold 30px Roboto, sans-serif"/>
+      default="$(robotoBold30)"  value="normal bold 30px Roboto, sans-serif"/>
   <Variable name="posts.text.font" description="Post text font"
       type="font"
-      default="$(body.text.font)"  value="15px Roboto, sans-serif"/>
+      default="$(body.text.font)"  value="normal normal 18px Roboto, sans-serif"/>
   <Variable name="posts.text.color" description="Post text color"
       type="color"
       default="$(body.text.color)"  value="#dddddd"/>
@@ -129,7 +129,7 @@
       default="rgba(0, 0, 0, 0.54)"  value="#ffffff"/>
   <Variable name="blockquote.font" description="Blockquote font"
       type="font"
-      default="$(robotoLightItalic15)"  value="italic 300 15px Roboto, sans-serif"/>
+      default="$(robotoLightItalic15)"  value="italic 300 18px Roboto, sans-serif"/>
   <Variable name="blockquote.color" description="Blockquote color"
       type="color"
       default="#444"  value="#dddddd"/>
@@ -145,7 +145,7 @@
       default="$(blog.title.color)"  value="#FFFFFF"/>
   <Variable name="search.input.font" description="Input font"
       type="font"
-      default="$(robotoNormal16)"  value="16px Roboto, sans-serif"/>
+      default="$(robotoNormal16)"  value="normal normal 20px Roboto, sans-serif"/>
   <Variable name="search.placeholder.color" description="Placeholder text color"
       type="color"
       default="$(blog.title.color)"  value="#FFFFFF"/>
@@ -2668,20 +2668,16 @@ margin-left:40px
 .post table.dark {
   border-collapse: collapse;
 }
-.post table.dark th {
+.post table.dark th, .post table.dark td {
   background-color:	#1E1E1E;
-  border-style: solid;
-  border: 1px;
-  color: #dddddd;
+  border: 1px solid white;
+  color: #ddddd;
   padding: 3px 5px 3px 5px;
   text-align: center;
   vertical-align: middle;
 }
 .post table.dark td {
-  border-style: solid;
-  border: 1px;
-  padding: 3px 5px 3px 5px;
-  vertical-align: middle;
+  text-align: left;
 }
 .post table.menu {
   background-color:	#1E1E1E;
@@ -2689,16 +2685,14 @@ margin-left:40px
   border: 1px solid #020202;
   float: right;
 }
+.post table.menu th, .post table.menu td {
+  padding: 3px 5px 3px 5px;
+  vertical-align: middle;
+}
 .post table.menu th {
   border: 1px solid #020202;
   color: #cc0000;
-  padding: 3px 5px 3px 5px;
   text-align: center;
-  vertical-align: middle;
-}
-.post table.menu td {
-  padding: 3px 5px 3px 5px;
-  vertical-align: middle;
 }
 
 /* Vim to HTML with fu.vim colorscheme */
@@ -2821,6 +2815,18 @@ pre {
   font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
   margin-right: -240px
   max-width: 2000px;
+}
+
+/* Sidebar */
+.widget.Profile .profile-link {
+  font: normal bold 20px Roboto, sans-serif;
+}
+.widget.Profile .profile-textblock {
+  font: normal 18px Roboto, sans-serif;
+}
+
+.sidebar-container .widget .title {
+  font-size: 20px;
 }]]></b:skin>
 
     <b:template-skin>
