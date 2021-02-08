@@ -2652,7 +2652,176 @@ body.collapsed-header.item-view .centered-top-container .blog-name{
 margin-left:40px
 }
 }
-]]></b:skin>
+/* ---- Custom CSS --------------------------------------------------------- */
+
+/* Fix menu and search button color */
+.centered-top-container .svg-icon-24, body.collapsed-header .centered-top-placeholder .svg-icon-24 {
+  fill: #ffffff;
+}
+
+/* Header Date */
+.post-header-line-1 {
+  text-align: right;
+}
+
+/* Table */
+.post table.dark {
+  border-collapse: collapse;
+}
+.post table.dark th {
+  background-color:	#1E1E1E;
+  border-style: solid;
+  border: 1px;
+  color: #dddddd;
+  padding: 3px 5px 3px 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.post table.dark td {
+  border-style: solid;
+  border: 1px;
+  padding: 3px 5px 3px 5px;
+  vertical-align: middle;
+}
+.post table.menu {
+  background-color:	#1E1E1E;
+  border-collapse: collapse;
+  border: 1px solid #020202;
+  float: right;
+}
+.post table.menu th {
+  border: 1px solid #020202;
+  color: #cc0000;
+  padding: 3px 5px 3px 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.post table.menu td {
+  padding: 3px 5px 3px 5px;
+  vertical-align: middle;
+}
+
+/* Vim to HTML with fu.vim colorscheme */
+.Boolean { color: #afd700; }
+.Comment { color: #808080; }
+.Conceal { color: #4d4d4d; }
+.Conditional { color: #8787ff; }
+.Constant { color: #ffd700; font-weight: bold; }
+.Error { color: #ff0000; background-color: #5f0000; }
+.Function { color: #ffffff; }
+.Identifier { color: #afd75f; }
+.Keyword { color: #d7ff00; }
+.Number { color: #ffaf00; }
+.Operator { color: #767676; }
+.PreProc { color: #ffffaf; }
+.Special { color: #ffd700; }
+.SpecialKey { color: #5fd75f; }
+.Statement { color: #8787af; font-weight: bold; }
+.String { color: #87af5f; background-color: #121212; }
+.Type { color: #87afff; }
+.Underlined { color: #5fd7ff; text-decoration: underline; }
+.lnr { color: #a8a8a8; background-color: #080808; }
+
+/* Keyboard Style */
+.Ctrl, kbd
+{
+  -moz-border-radius:3px;
+  -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+  -webkit-border-radius:3px;
+  -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+  background-color:#f7f7f7;
+  border-radius:3px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+  color: #333;
+  display: inline-block;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size:11px;
+  line-height:1.4;
+  margin:0 .1em;
+  padding:.1em .6em;
+  text-shadow:0 1px 0 #fff;
+}
+
+/* Block quotation */
+blockquote {
+  background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+  border: 1px solid #999999;
+  color:#dddddd;
+  display: block;
+  font-size: 13px;
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  margin: 10px 0px 0px 5px;
+  max-height: 1200px;
+  overflow: auto;
+  padding: 5px 5px 5px 15px;
+  text-align: left;
+}
+blockquote li {
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  list-style-position: inside;
+  list-style: url('https://sites.google.com/site/jonnywiki/software/fonts/dollar_sign.png');
+}
+
+/* CODE */
+code {
+  //width: 440px;
+  background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+  border: 1px solid #999999;
+  color: #dddddd;
+  display: block;
+  font-size: 13px;
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  margin: 10px 0px 0px 5px;
+  max-height: 1200px;
+  overflow: auto;
+  padding: 5px 5px 5px 15px;
+  text-align: left;
+}
+code.src {
+  background: #1c1c1c url(http://devajonny.googlepages.com/Code_BG.png) left top repeat-y;
+  border: 1px solid #999999;
+  color: #dddddd;
+  display: block;
+  float: left
+  font-size: 13px;
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  height: 500px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  margin: 10px 0px 0px 5px;
+  max-height: 1500px;
+  overflow: auto;
+  padding: 5px 5px 5px 15px;
+  text-align: left;
+}
+code.ref {
+  background: #3D3434;
+  border: 3px dashed #ff0000;
+  color: #9C9CE0;
+  display: block;
+  font-size: 13px;
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  margin: 0px 0 0 0px;
+  max-height: 1200px;
+  overflow: auto;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+pre {
+  float: left;
+  font-size: 13px;
+  font: 300 15px Monaco, Helvetica, Consolas, 微軟正黑體, sans-serif;
+  margin-right: -240px
+  max-width: 2000px;
+}]]></b:skin>
 
     <b:template-skin>
       <![CDATA[
@@ -3337,6 +3506,7 @@ margin-left:40px
                       <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                       <b:widget-setting name='style.textcolor'>#cc0000</b:widget-setting>
                       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+                      <b:widget-setting name='authorLabel'/>
                       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                       <b:widget-setting name='style.urlcolor'>#7f7f7f</b:widget-setting>
                       <b:widget-setting name='showAuthor'>false</b:widget-setting>
@@ -3345,10 +3515,10 @@ margin-left:40px
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
                       <b:widget-setting name='timestampLabel'/>
-                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                      <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
                       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                       <b:widget-setting name='showLabels'>true</b:widget-setting>
-                      <b:widget-setting name='showLocation'>true</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
                       <b:widget-setting name='postLabelsLabel'/>
                       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
@@ -3777,8 +3947,8 @@ margin-left:40px
                   </b:widget>
                   <b:widget cond='data:view.isSingleItem and data:posts any (p =&gt; p.id != data:view.postId)' id='PopularPosts1' locked='true' title='Popular Articles' type='PopularPosts' visible='true'>
                     <b:widget-settings>
-                      <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
-                      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                      <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
+                      <b:widget-setting name='showThumbnails'>false</b:widget-setting>
                       <b:widget-setting name='showSnippets'>true</b:widget-setting>
                       <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
                     </b:widget-settings>
@@ -4101,7 +4271,7 @@ margin-left:40px
             <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
             <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
             <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
-            <b:widget-setting name='monthPattern'>MMMM</b:widget-setting>
+            <b:widget-setting name='monthPattern'>MM</b:widget-setting>
             <b:widget-setting name='dayPattern'>MM/dd</b:widget-setting>
             <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
             <b:widget-setting name='chronological'>false</b:widget-setting>
@@ -4165,7 +4335,7 @@ margin-left:40px
         <b:widget id='HTML4' locked='false' title='Widgets' type='HTML' version='1'>
           <b:widget-settings>
             <b:widget-setting name='content'>&lt;!-- Twitter --&gt;
-&lt;a class=&quot;twitter-timeline&quot; data-lang=&quot;zh-tw&quot; data-width=&quot;240&quot; data-height=&quot;380&quot; data-theme=&quot;dark&quot; data-link-color=&quot;#7f7f7f&quot; href=&quot;https://twitter.com/chusiang_lai?ref_src=twsrc%5Etfw&quot;&gt;Tweets by chusiang_lai&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;a class=&quot;twitter-timeline&quot; data-lang=&quot;zh-tw&quot; data-width=&quot;308&quot; data-height=&quot;500&quot; data-theme=&quot;dark&quot; data-link-color=&quot;#7f7f7f&quot; href=&quot;https://twitter.com/chusiang_lai?ref_src=twsrc%5Etfw&quot;&gt;Tweets by chusiang_lai&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;
 &lt;div align=&#39;center&#39;&gt;
@@ -4179,34 +4349,13 @@ document.write(&quot;&lt;b&gt;&lt;font color=&#39;#ff0000&#39; size=&#39;3&#39;&
 &lt;small&gt;day.&lt;/small&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;!-- BloggerAds --&gt;
+
 &lt;!--
-&lt;div id=&quot;bloggerads&quot; style=&#39;text-align: center; margin-left: 30px; margin-top: 5px;&#39;&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://js1.bloggerads.net/showads.aspx?blogid=20140822000002&amp;amp;charset=utf-8&quot;&gt;&lt;/script&gt; &lt;/div&gt;&lt;/div&gt;
---&gt;</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main'>
-        <!-- only display title if it's non-empty -->
-        <b:if cond='data:title != &quot;&quot;'>
-          <h2 class='title'>
-            <data:title/>
-          </h2>
-        </b:if>
-        <div class='widget-content'>
-          <data:content/>
-        </div>
-        <b:include name='quickedit'/>
-      </b:includable>
-        </b:widget>
-        <b:widget id='HTML5' locked='false' title='' type='HTML' visible='false'>
-          <b:widget-settings>
-            <b:widget-setting name='content'>&lt;p id=&quot;back-top&quot;&gt;
+&lt;p id=&quot;back-top&quot;&gt;
   &lt;a href=&quot;#top&quot;&gt;&lt;span&gt;&lt;/span&gt;TOP&lt;/a&gt;
 &lt;/p&gt;
+--&gt;
 
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  Coypleft from 2008-2018 &lt;a href=&quot;http://note.drx.tw/p/about-chu-siang-lai.html&quot;&gt;chusiang&lt;/a&gt; CC BY-NC-SA 2.5 TW
-&lt;/div&gt;
 
 &lt;!-- 將這個標記放在標頭中&#65292;或放在內文結尾標記前面&#12290; --&gt;
 &lt;script src=&quot;https://apis.google.com/js/platform.js&quot; async defer&gt;
